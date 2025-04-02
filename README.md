@@ -84,7 +84,9 @@ This activity guides you through building a simple CRUD API using Prisma and Exp
       "start:dev": "nodemon server.js"
    }
    ```
-1. Create the following `/players` routes. These routes should use the [Prisma Client CRUD operations](https://www.prisma.io/docs/concepts/components/prisma-client/crud) to read and write from the database.
+1. Create the following `/players` routes. These routes should use the [Prisma Client CRUD operations](https://www.
+
+prisma.io/docs/concepts/components/prisma-client/crud) to read and write from the database.
    - `GET /api/players` - returns an array of all players
    - `POST /api/players` - creates a new player with the information provided in the request body
    - `GET /api/players/:id` - returns a single player with the specified id
